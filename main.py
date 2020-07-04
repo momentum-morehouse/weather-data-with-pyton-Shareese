@@ -1,6 +1,6 @@
 import requests
-#import matplotlib.pyplot as plt
-#import numpy as np
+import matplotlib.pyplot as plt
+import numpy as np
 
 # If you want to use classes
 # class Place:
