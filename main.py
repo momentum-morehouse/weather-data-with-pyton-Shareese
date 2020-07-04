@@ -21,7 +21,7 @@ places_list = [
 (33.9249, -18.4241, "Cape Town")
 ]
 
-def climate(locations):
+def climate(locations, temp):
     climate_data_packet = {}
     for location in locations:
         url = "https://api.climacell.co/v3/weather/realtime"
